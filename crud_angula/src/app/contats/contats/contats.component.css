@@ -1,0 +1,10 @@
+table {
+  width: 100%;
+}
+
+.loading-spinner{
+  background: rgba(71, 69, 69, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
