@@ -1,12 +1,25 @@
+
 <div class="class">
   <h2>Animals: </h2>
   <ul>
     <li *ngFor="let animal of animals">
-      nome: {{animal.name}}
+      nome: <a routerLink="/list/{{ animal.id }}" >{{animal.name}} </a>
       - Raça: {{animal.type}}
     <button (click)="showAge(animal)">Show age</button>
     <button (click)="removeAnimal(animal)" >Excluir</button>
     </li>
   </ul>
+</div>
+
   <h3>{{animalDetails}}</h3>
+
+  <!--  //passo 09    -->
+  <div class="class">
+    <h2>Pessoas: </h2>
+    <ul>
+      <li *ngFor="let pessoa of pessoas">
+        nome: {{pessoa.name}}
+        - Profissao: {{pessoa.job}}
+      </li>
+    </ul>
 </div>

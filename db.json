@@ -1,0 +1,48 @@
+{
+  "animals": [
+    {
+      "id": 2,
+      "name": "Rambinho",
+      "type": "Dog",
+      "age": 15
+    }
+  ],
+  "pessoa": [
+    {
+      "id": 1,
+      "name": "TiuCassiO",
+      "job": "Dev",
+      "age": 28
+    },
+    {
+      "id": 2,
+      "name": "Leleo",
+      "job": "Operador",
+      "age": 22
+    },
+    {
+      "id": 3,
+      "name": "Heloisa",
+      "job": "Estudante",
+      "age": 12
+    },
+    {
+      "id": 4,
+      "name": "Victor vovo",
+      "job": "Barbeiro",
+      "age": 24
+    },
+    {
+      "id": 5,
+      "name": "Jose",
+      "job": "Agrigultor",
+      "age": 57
+    },
+    {
+      "id": 6,
+      "name": "Julieta",
+      "job": "Traquina",
+      "age": 109
+    }
+  ]
+}

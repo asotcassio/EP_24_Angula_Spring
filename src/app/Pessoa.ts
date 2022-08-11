@@ -1,7 +1,6 @@
-export interface Animal {
+export interface Pessoa {
   id: number
   name: string
-  type: string
+  job: string
   age: number
-
 }
