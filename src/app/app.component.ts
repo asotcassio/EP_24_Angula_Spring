@@ -3,14 +3,8 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  userName = 'Tiu';
-  userData = {
-    user:'Cassio',
-    email: 'asot@gmail.com'
-  }
-
-  title = 'ViewCacique  WEB';
+  title = 'momnets';
 }
